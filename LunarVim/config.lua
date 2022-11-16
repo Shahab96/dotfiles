@@ -13,7 +13,8 @@ lvim.log.level = "warn"
 lvim.format_on_save = true
 lvim.colorscheme = "onedarker"
 vim.opt.shiftwidth = 4
-
+vim.g.copilot_no_tab_map = true
+vim.api.nvim_set_keymap("i", "<C-o>", 'copilot#Accept("<CR>")', { silent = true, expr = true, noremap = true, script = true })  
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
 
