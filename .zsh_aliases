@@ -1,0 +1,2 @@
+alias vim="nvim"
+alias issues="gh issue list -a @me"
