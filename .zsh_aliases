@@ -1,3 +1,4 @@
 alias vim="nvim"
 alias issues="gh issue list -a @me"
 alias grep="rg"
+alias ls="exa"
