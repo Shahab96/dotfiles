@@ -1,4 +1,4 @@
-[[ $- != *i* ]] && return
+[[ "$TERM" == "linux" ]] && return
 
 export XDG_CONFIG_HOME="$HOME/.config"
 
